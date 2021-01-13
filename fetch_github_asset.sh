@@ -35,6 +35,8 @@ echo $ASSET_ID
 echo "### TAG_VERSION"
 echo $TAG_VERSION
 
+env
+
 if [[ -z "$ASSET_ID" ]]; then
   echo "Could not find asset id"
   exit 1
